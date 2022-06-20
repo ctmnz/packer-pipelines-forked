@@ -1,8 +1,6 @@
 pipeline {
   agent {
     docker {
-      image env.AGENT_DOCKER_IMAGE ?: 'fabiogomezdiaz/jenkins-agent-packer-docker:latest'
-      args "--entrypoint='' -v /certs/client:/certs/client"
     }
   }
 
