@@ -19,7 +19,7 @@ pipeline {
   }
 
   stages {
-    stage('Packer - Build Docker Image') {
+    stage('Packer - Build AWS CryptoWare AMI') {
       steps {
         sh """
         #!/bin/sh

@@ -11,8 +11,6 @@ source "amazon-ebs" "cyberware" {
   ami_name      = "daniel-cryptoware-01"
   instance_type = "t2.small"
   region        = "us-east-1"
-  access_key    = ""
-  secret_key    = ""
   source_ami_filter {
     filters = {
       name                = "debian-stretch-hvm-x86_64-gp2-2022-03-25-58319"
